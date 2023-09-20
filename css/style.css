@@ -506,9 +506,13 @@ body {
     font-family: "Manrope", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    line-height: 150%;
     color: #588460;
     letter-spacing: 2px;
     background-color: #afb2b7;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 /* Modifiers */
@@ -621,16 +625,17 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 100%;
-    background-color: #afb2b7;
+    background-color: #ffffff;
     filter: blur(60px);
 }
 
 .questions__text {
     width: 100%;
-    min-height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
+    text-align: center;
     text-transform: uppercase;
     background-color: #ffffff;
     border-radius: 10px;
@@ -646,6 +651,19 @@ body {
 
 .questions .questions-subtitle {
     font-size: 16px;
+    color: #588460;
+}
+
+.questions .questions-subtitle.disabled {
+    cursor: pointer;
+    opacity: 0.5;
+    color: #ffffff;
+}
+
+.questions .questions-subtitle.active {
+    opacity: 1;
+    color: #588460;
+    cursor: default;
 }
 
 .questions__button {
@@ -670,4 +688,10 @@ body {
     background-color: #ffffff;
     border: none;
     border-radius: 30px 30px 0 0;
+    cursor: pointer;
+}
+
+.questions__button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
 }

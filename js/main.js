@@ -1,158 +1,310 @@
 document.addEventListener('DOMContentLoaded', () => {
-	let eng = [
-		'immaculate',
-		'keep from',
-		'fall apart',
-		'seams',
-		'crime',
-		'come undone',
-		'chills',
-		'case',
-		'point',
-		'sense',
-		'government',
-		'able',
-		'are note / aint',
-		'faith-departed',
-		'crowd',
-		'shout',
-		'stand your ground',
-		'bend',
-		'seek',
-		'devide',
-		'hang',
-		'gull / seagull',
-		'on my own',
-		'heat',
-		'windpipe',
-		'huff',
-		'suffer',
-		'suffocate',
-		'drown',
-		'im about to',
-		'resuscitate',
-		'snap',
-		'lay',
-		'stoop',
-		'barley',
-		'neither',
-		'either',
-		'sick of',
-		'spew',
-		'spit',
-		'pull',
-		'separate',
-		'restraint',
-		'sidewalk',
-		'sencere',
-		'pissed',
-		'tie',
-		'urgent',
-		'clearance',
-		'retired',
-		'similar',
-		'mention',
-		'suspicions',
-		'mess',
-		'mole',
-		'prick',
-		'necessary',
-		'sourse',
-		'chaps',
-		'pleased',
-		'leaky',
-		'pretend',
-		'entertain',
-		'contagious',
-		'vain',
-		'torture',
-		'gaze',
-		'above',
-	];
-	let ru = [
-		'безупречный',
-		'удержаться',
-		'развалитьяс на части',
-		'швы',
-		'преступление',
-		'что-то undone',
-		'мурашки',
-		'дело / случай',
-		'точка / смысл',
-		'смысл',
-		'государство',
-		'в состоянии / способен',
-		'не',
-		'потерявший веру',
-		'толпа',
-		'кричать',
-		'стоять на своем',
-		'гнуться',
-		'искать',
-		'разделять',
-		'вешать',
-		'чайка',
-		'сам по себе',
-		'жара',
-		'трахея',
-		'оскорблять / раздражать',
-		'страдать',
-		'задыхаться',
-		'тонуть',
-		'я собирась сделать',
-		'реанимировать',
-		'щелчок',
-		'класть',
-		'унижение',
-		'едва / еле еле',
-		'никто / также не',
-		'любой / каждый',
-		'устал от',
-		'блевать / изрыгать',
-		'плевать',
-		'тянуть',
-		'отдельный',
-		'сдержанный',
-		'тротуар',
-		'честный / искренний',
-		'раздраженный',
-		'завязывать / галстук',
-		'срочно',
-		'разрешение',
-		'ушел в отставку',
-		'похожий',
-		'упоминать',
-		'подозрение',
-		'беспорядок',
-		'крот / моль',
-		'хер / ничтожество',
-		'необходимый',
-		'источник',
-		'ребята',
-		'довольный',
-		'дырявый',
-		'притворяться',
-		'развлекать',
-		'заразный',
-		'напрасно',
-		'пытка',
-		'взор / взгляд',
-		'выше',
+	let words = [
+		{
+			ru: 'дело / случай',
+			eng: 'case',
+		},
+		{
+			ru: 'точка / смысл',
+			eng: 'point',
+		},
+		{
+			ru: 'смылс',
+			eng: 'sense',
+		},
+		{
+			ru: 'государство',
+			eng: 'government',
+		},
+		{
+			ru: 'способен / в состоянии',
+			eng: 'able',
+		},
+		{
+			ru: 'безупречный',
+			eng: 'immaculate',
+		},
+		{
+			ru: 'удержаться / воздержаться',
+			eng: 'keep from',
+		},
+		{
+			ru: 'развалиться на части',
+			eng: 'fall apart',
+		},
+		{
+			ru: 'швы',
+			eng: 'seams',
+		},
+		{
+			ru: 'преступление',
+			eng: 'crime',
+		},
+		{
+			ru: 'что-то undone',
+			eng: 'come undone',
+		},
+		{
+			ru: 'мурашки',
+			eng: 'chills',
+		},
+		{
+			ru: 'не',
+			eng: 'are not / aint',
+		},
+		{
+			ru: 'потерявший веру',
+			eng: 'faith-departed',
+		},
+		{
+			ru: 'толпа',
+			eng: 'crowd',
+		},
+		{
+			ru: 'кричать',
+			eng: 'shout',
+		},
+		{
+			ru: 'стоять на своем',
+			eng: 'stand your ground',
+		},
+		{
+			ru: 'гнуться',
+			eng: 'bend',
+		},
+		{
+			ru: 'искать',
+			eng: 'seek',
+		},
+		{
+			ru: 'разделить',
+			eng: 'devide',
+		},
+		{
+			ru: 'вешать',
+			eng: 'hang',
+		},
+		{
+			ru: 'чайка',
+			eng: 'gull / seagull',
+		},
+		{
+			ru: 'сам по себе',
+			eng: 'on my own',
+		},
+		{
+			ru: 'жара',
+			eng: 'heat',
+		},
+		{
+			ru: 'трахея',
+			eng: 'windpipe',
+		},
+		{
+			ru: 'оскорблять / раздражать',
+			eng: 'huff',
+		},
+		{
+			ru: 'страдать',
+			eng: 'suffer',
+		},
+		{
+			ru: 'задыхаться',
+			eng: 'suffocate',
+		},
+		{
+			ru: 'тонуть',
+			eng: 'drown',
+		},
+		{
+			ru: 'я собираюсь сделать',
+			eng: 'im about to',
+		},
+		{
+			ru: 'реанимировать',
+			eng: 'resuscitate',
+		},
+		{
+			ru: 'щелчок',
+			eng: 'snap',
+		},
+		{
+			ru: 'класть',
+			eng: 'lay',
+		},
+		{
+			ru: 'унижение',
+			eng: 'stoop',
+		},
+		{
+			ru: 'едва ли / еле еле',
+			eng: 'barely',
+		},
+		{
+			ru: 'никто / также не',
+			eng: 'neither',
+		},
+		{
+			ru: 'любой / каждый',
+			eng: 'either',
+		},
+		{
+			ru: 'устал от',
+			eng: 'sick of',
+		},
+		{
+			ru: 'блевать / изрыгать',
+			eng: 'spew',
+		},
+		{
+			ru: 'плевать',
+			eng: 'spit',
+		},
+		{
+			ru: 'тянуть',
+			eng: 'pull',
+		},
+		{
+			ru: 'отдельный',
+			eng: 'separate',
+		},
+		{
+			ru: 'сдержанный',
+			eng: 'restraint',
+		},
+		{
+			ru: 'тротуар',
+			eng: 'sidewalk',
+		},
+		{
+			ru: 'честный / искренний',
+			eng: 'sincere',
+		},
+		{
+			ru: 'раздраженный',
+			eng: 'pissed',
+		},
+		{
+			ru: 'завязывать / галстук',
+			eng: 'tie',
+		},
+		{
+			ru: 'срочно',
+			eng: 'urgent',
+		},
+		{
+			ru: 'разрешение',
+			eng: 'clearance',
+		},
+		{
+			ru: 'ушел в отставку',
+			eng: 'retired',
+		},
+		{
+			ru: 'похожий',
+			eng: 'similar',
+		},
+		{
+			ru: 'упоминать',
+			eng: 'mention',
+		},
+		{
+			ru: 'подозрения',
+			eng: 'suspicions',
+		},
+		{
+			ru: 'беспорядок',
+			eng: 'mess',
+		},
+		{
+			ru: 'крот / моль',
+			eng: 'mole',
+		},
+		{
+			ru: 'хер / ничтожество',
+			eng: 'prick',
+		},
+		{
+			ru: 'необходимый',
+			eng: 'necessary',
+		},
+		{
+			ru: 'источник',
+			eng: 'sourse',
+		},
+		{
+			ru: 'ребята',
+			eng: 'chaps',
+		},
+		{
+			ru: 'довольный',
+			eng: 'pleased',
+		},
+		{
+			ru: 'дырявый',
+			eng: 'leaky',
+		},
+		{
+			ru: 'притворяться',
+			eng: 'pretend',
+		},
+		{
+			ru: 'развлекать',
+			eng: 'entertain',
+		},
+		{
+			ru: 'заразный',
+			eng: 'contagious',
+		},
+		{
+			ru: 'напрасно',
+			eng: 'vain',
+		},
+		{
+			ru: 'пытка',
+			eng: 'torture',
+		},
+		{
+			ru: 'взор / взгляд',
+			eng: 'gaze',
+		},
+		{
+			ru: 'выше',
+			eng: 'above',
+		},
 	];
 
 	const title = document.querySelector('.questions-title');
 	const subtitle = document.querySelector('.questions-subtitle');
 	const btn = document.querySelector('.questions__button');
 
-	const randomInd = (min, max) => {
-		let rand = min + Math.random() * (max + 1 - min);
-		return Math.floor(rand);
+	const randomNumber = (min, max) => {
+		return Math.floor(Math.random() * (max + 1 - min));
 	};
 
-	const btnClick = () => {
-		btn.addEventListener('click', () => {
-			title.innerHTML = ru[randomInd(0, eng.length - 1)];
-		});
+	const clickOnBtn = () => {
+		let number = randomNumber(0, words.length - 1);
+
+		let randomElement = words[number];
+
+		title.innerText = randomElement.ru;
+		subtitle.innerText = randomElement.eng;
+
+		words.splice(number, 1);
+
+		if (words.length === 0) {
+			btn.innerText = 'done';
+			btn.classList.add('disabled');
+		}
 	};
-	btnClick();
+
+	btn.addEventListener('click', () => {
+		clickOnBtn();
+		subtitle.classList.add('disabled');
+		subtitle.classList.remove('active');
+	});
+	subtitle.addEventListener('click', () => {
+		subtitle.classList.add('active');
+		subtitle.classList.remove('disabled');
+	});
 });

@@ -272,6 +272,82 @@ document.addEventListener('DOMContentLoaded', () => {
 			ru: 'выше',
 			eng: 'above',
 		},
+		{
+			ru: 'страсть',
+			eng: 'passion',
+		},
+		{
+			ru: 'хватка',
+			eng: 'grip',
+		},
+		{
+			ru: 'азарт / острые ощущения',
+			eng: 'thrill',
+		},
+		{
+			ru: 'соперник / конекурент',
+			eng: 'rival',
+		},
+		{
+			ru: 'добыча',
+			eng: 'prey',
+		},
+		{
+			ru: 'жесткий',
+			eng: 'tough',
+		},
+		{
+			ru: 'стакать как в доте',
+			eng: 'stack',
+		},
+		{
+			ru: 'прямой',
+			eng: 'straight',
+		},
+		{
+			ru: 'кишки',
+			eng: 'guts',
+		},
+		{
+			ru: 'воля',
+			eng: 'will',
+		},
+		{
+			ru: 'на плаву',
+			eng: 'float',
+		},
+		{
+			ru: 'бросить вызов / игнорировать',
+			eng: 'defy',
+		},
+		{
+			ru: 'пройти / пропускать',
+			eng: 'pass',
+		},
+		{
+			ru: 'градус / степень',
+			eng: 'degree',
+		},
+		{
+			ru: 'столкнуться',
+			eng: 'collide',
+		},
+		{
+			ru: 'спутник',
+			eng: 'satellite',
+		},
+		{
+			ru: 'я веселюсь от души',
+			eng: 'im having a ball',
+		},
+		{
+			ru: 'умолять',
+			eng: 'beg',
+		},
+		{
+			ru: 'дурачиться',
+			eng: 'fool around',
+		},
 	];
 
 	const title = document.querySelector('.questions-title');

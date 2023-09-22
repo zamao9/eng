@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			eng: 'point',
 		},
 		{
-			ru: 'смылс',
+			ru: 'смылс / чувство',
 			eng: 'sense',
 		},
 		{
@@ -347,6 +347,34 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'дурачиться',
 			eng: 'fool around',
+		},
+		{
+			ru: 'вместо',
+			eng: 'instead',
+		},
+		{
+			ru: 'внезапно',
+			eng: 'sudden',
+		},
+		{
+			ru: 'подлые вещи',
+			eng: 'mean things',
+		},
+		{
+			ru: 'мужество',
+			eng: 'courage',
+		},
+		{
+			ru: 'неловкий',
+			eng: 'qwkward',
+		},
+		{
+			ru: 'расширять',
+			eng: 'extend',
+		},
+		{
+			ru: 'заметить кого-то',
+			eng: 'spot someone',
 		},
 	];
 

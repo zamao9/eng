@@ -366,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'неловкий',
-			eng: 'qwkward',
+			eng: 'awkward',
 		},
 		{
 			ru: 'расширять',
@@ -375,6 +375,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'заметить кого-то',
 			eng: 'spot someone',
+		},
+		{
+			ru: 'повседневный',
+			eng: 'casual',
+		},
+		{
+			ru: 'случайно',
+			eng: 'casually',
 		},
 	];
 

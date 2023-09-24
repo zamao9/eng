@@ -41,6 +41,10 @@ document.addEventListener('DOMContentLoaded', () => {
 			eng: 'crime',
 		},
 		{
+			ru: 'мощь / может',
+			eng: 'might',
+		},
+		{
 			ru: 'что-то undone',
 			eng: 'come undone',
 		},
@@ -62,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'кричать',
-			eng: 'shout',
+			eng: 'shout / yell',
 		},
 		{
 			ru: 'стоять на своем',
@@ -383,6 +387,110 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'случайно',
 			eng: 'casually',
+		},
+		{
+			ru: 'решить',
+			eng: 'decide',
+		},
+		{
+			ru: 'переоцененный',
+			eng: 'overrated',
+		},
+		{
+			ru: 'в конечном счете',
+			eng: 'eventually',
+		},
+		{
+			ru: 'в течении / во время',
+			eng: 'during',
+		},
+		{
+			ru: 'задолженность',
+			eng: 'owe',
+		},
+		{
+			ru: 'поскольку',
+			eng: 'since',
+		},
+		{
+			ru: 'еще бы',
+			eng: 'you betcha',
+		},
+		{
+			ru: 'отключение света',
+			eng: 'blackout',
+		},
+		{
+			ru: 'острый',
+			eng: 'sharp',
+		},
+		{
+			ru: 'похоронен',
+			eng: 'buried',
+		},
+		{
+			ru: 'определять',
+			eng: 'define',
+		},
+		{
+			ru: 'напомнить',
+			eng: 'remind',
+		},
+		{
+			ru: 'замечание',
+			eng: 'remark',
+		},
+		{
+			ru: 'замечательно',
+			eng: 'remarkably',
+		},
+		{
+			ru: 'инвалидность',
+			eng: 'disability',
+		},
+		{
+			ru: 'чудо',
+			eng: 'wonder',
+		},
+		{
+			ru: 'предполагать',
+			eng: 'assume',
+		},
+		{
+			ru: 'наглядно',
+			eng: 'vividly',
+		},
+		{
+			ru: 'развод',
+			eng: 'divorce',
+		},
+		{
+			ru: 'заболевание',
+			eng: 'disease',
+		},
+		{
+			ru: 'рвота',
+			eng: 'vomiting',
+		},
+		{
+			ru: 'спасение',
+			eng: 'rescue',
+		},
+		{
+			ru: 'веселый',
+			eng: 'jolly',
+		},
+		{
+			ru: 'пепел',
+			eng: 'ashes',
+		},
+		{
+			ru: 'повод',
+			eng: 'occasion',
+		},
+		{
+			ru: 'бросать в кого-то',
+			eng: 'throw',
 		},
 	];
 

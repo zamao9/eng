@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'унижение',
-			eng: 'stoop',
+			eng: 'stoop / humiliate',
 		},
 		{
 			ru: 'едва ли / еле еле',
@@ -491,6 +491,66 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'бросать в кого-то',
 			eng: 'throw',
+		},
+		{
+			ru: 'прибывать',
+			eng: 'arrive',
+		},
+		{
+			ru: 'отчаяние',
+			eng: 'despair',
+		},
+		{
+			ru: 'объявить',
+			eng: 'announce',
+		},
+		{
+			ru: 'оправдания',
+			eng: 'excuse',
+		},
+		{
+			ru: 'трепет / дрожь',
+			eng: 'quiver',
+		},
+		{
+			ru: 'существовать',
+			eng: 'exist',
+		},
+		{
+			ru: 'существо',
+			eng: 'creature',
+		},
+		{
+			ru: 'ползти',
+			eng: 'crowl',
+		},
+		{
+			ru: 'презирать',
+			eng: 'despise',
+		},
+		{
+			ru: 'парень',
+			eng: 'lad',
+		},
+		{
+			ru: 'скользить',
+			eng: 'slip',
+		},
+		{
+			ru: 'что касается чего-то',
+			eng: 'as far as something',
+		},
+		{
+			ru: 'процветать',
+			eng: 'prosper',
+		},
+		{
+			ru: 'удобный',
+			eng: 'convenient',
+		},
+		{
+			ru: 'посвятить',
+			eng: 'devote',
 		},
 	];
 

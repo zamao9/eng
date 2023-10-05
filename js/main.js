@@ -374,7 +374,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'расширять',
-			eng: 'extend',
+			eng: 'extend / expand',
 		},
 		{
 			ru: 'заметить кого-то',

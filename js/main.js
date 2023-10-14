@@ -398,7 +398,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'в конечном счете',
-			eng: 'eventually',
+			eng: 'eventually / end up',
 		},
 		{
 			ru: 'в течении / во время',
@@ -551,6 +551,58 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'посвятить',
 			eng: 'devote',
+		},
+		{
+			ru: 'оказаться в',
+			eng: 'wind up in',
+		},
+		{
+			ru: 'подходит / соответсвует',
+			eng: 'fits',
+		},
+		{
+			ru: 'запрос',
+			eng: 'query',
+		},
+		{
+			ru: 'оставаться на связи',
+			eng: 'keep in touch',
+		},
+		{
+			ru: 'свободно / бегло',
+			eng: 'fluent',
+		},
+		{
+			ru: 'знакомый',
+			eng: 'familiar',
+		},
+		{
+			ru: 'возможность',
+			eng: 'opportunity / posibility',
+		},
+		{
+			ru: 'раскрывать / обнародовать',
+			eng: 'expose',
+		},
+		{
+			ru: 'проблема',
+			eng: 'issue',
+		},
+		{
+			ru: 'окаменеть',
+			eng: 'petrify',
+		},
+		{
+			ru: 'беспокоить / надоедать',
+			eng: 'bother',
+		},
+		{
+			ru: 'починить',
+			eng: 'mend',
+		},
+		{
+			ru: 'винить',
+			eng: 'blame',
 		},
 	];
 

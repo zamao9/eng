@@ -604,6 +604,26 @@ document.addEventListener('DOMContentLoaded', () => {
 			ru: 'винить',
 			eng: 'blame',
 		},
+		{
+			ru: 'трость',
+			eng: 'cane',
+		},
+		{
+			ru: 'невежество',
+			eng: 'ignorance',
+		},
+		{
+			ru: 'скромный',
+			eng: 'modest',
+		},
+		{
+			ru: 'поведение',
+			eng: 'behavior',
+		},
+		{
+			ru: 'избегать',
+			eng: 'avoid',
+		},
 	];
 
 	const title = document.querySelector('.questions-title');

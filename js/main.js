@@ -665,6 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	const title = document.querySelector('.questions-title');
 	const subtitle = document.querySelector('.questions-subtitle');
 	const btn = document.querySelector('.questions__button');
+	const counter = document.querySelector('.counter');
 
 	const randomNumber = (min, max) => {
 		return Math.floor(Math.random() * (max + 1 - min));
@@ -684,6 +685,8 @@ document.addEventListener('DOMContentLoaded', () => {
 			btn.innerText = 'done';
 			btn.classList.add('disabled');
 		}
+
+		counter.innerText = words.length;
 	};
 
 	btn.addEventListener('click', () => {

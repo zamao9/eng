@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'решить',
-			eng: 'decide',
+			eng: 'decide / (re)solve',
 		},
 		{
 			ru: 'переоцененный',
@@ -623,6 +623,42 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'избегать',
 			eng: 'avoid',
+		},
+		{
+			ru: 'поселиться',
+			eng: 'settle',
+		},
+		{
+			ru: 'появиться',
+			eng: 'to turn up',
+		},
+		{
+			ru: 'длится',
+			eng: 'lasts',
+		},
+		{
+			ru: 'тем временем',
+			eng: 'meanwhile',
+		},
+		{
+			ru: 'связанный с чем-то',
+			eng: 'bound',
+		},
+		{
+			ru: 'сравнить',
+			eng: 'compare',
+		},
+		{
+			ru: 'сожалеть',
+			eng: 'regret',
+		},
+		{
+			ru: 'злой',
+			eng: 'wicked',
+		},
+		{
+			ru: 'не спать',
+			eng: 'awake',
 		},
 	];
 

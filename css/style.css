@@ -736,8 +736,7 @@ body {
 }
 
 .laws__list {
-    padding: 10px 15px 10px 40px;
-    list-style: auto;
+    padding: 10px 40px;
     color: #ffffff;
     background-color: #588460;
     border-radius: 30px;

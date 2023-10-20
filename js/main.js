@@ -660,6 +660,50 @@ document.addEventListener('DOMContentLoaded', () => {
 			ru: 'не спать',
 			eng: 'awake',
 		},
+		{
+			ru: 'боль',
+			eng: 'ache',
+		},
+		{
+			ru: 'позвоночник',
+			eng: 'spine',
+		},
+		{
+			ru: 'запасное / свободное',
+			eng: 'spare',
+		},
+		{
+			ru: 'подозревать / подозреваемый',
+			eng: 'suspect',
+		},
+		{
+			ru: 'священный',
+			eng: 'sacred',
+		},
+		{
+			ru: 'результат',
+			eng: 'outcome',
+		},
+		{
+			ru: 'форма',
+			eng: 'shape',
+		},
+		{
+			ru: 'скрыть',
+			eng: 'conceal',
+		},
+		{
+			ru: 'угасание',
+			eng: 'fade',
+		},
+		{
+			ru: 'стоимость / цена',
+			eng: 'coast',
+		},
+		{
+			ru: 'проклятие',
+			eng: 'curse',
+		},
 	];
 
 	const title = document.querySelector('.questions-title');

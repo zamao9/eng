@@ -704,6 +704,46 @@ document.addEventListener('DOMContentLoaded', () => {
 			ru: 'проклятие',
 			eng: 'curse',
 		},
+		{
+			ru: 'не против',
+			eng: 'dont mind',
+		},
+		{
+			ru: 'требовать / утверждать',
+			eng: 'clame',
+		},
+		{
+			ru: 'спрос',
+			eng: 'demand',
+		},
+		{
+			ru: 'жестокость',
+			eng: 'cruel',
+		},
+		{
+			ru: 'капелька',
+			eng: 'smidge',
+		},
+		{
+			ru: 'расходы',
+			eng: 'expenses',
+		},
+		{
+			ru: 'погружение',
+			eng: 'plunge',
+		},
+		{
+			ru: 'голодать',
+			eng: 'famish',
+		},
+		{
+			ru: 'оболочка',
+			eng: 'shell',
+		},
+		{
+			ru: 'запретить',
+			eng: 'forbid',
+		},
 	];
 
 	const title = document.querySelector('.questions-title');

@@ -550,7 +550,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			ru: 'посвятить',
-			eng: 'devote',
+			eng: 'devote / dedicate',
 		},
 		{
 			ru: 'оказаться в',
@@ -743,6 +743,34 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			ru: 'запретить',
 			eng: 'forbid',
+		},
+		{
+			ru: 'подчинять / покорять',
+			eng: 'subdue',
+		},
+		{
+			ru: 'позор',
+			eng: 'disgrace',
+		},
+		{
+			ru: 'лишать',
+			eng: 'deprive',
+		},
+		{
+			ru: 'борьба',
+			eng: 'struggle',
+		},
+		{
+			ru: 'обет / клятва',
+			eng: 'vow',
+		},
+		{
+			ru: 'нарекать',
+			eng: 'dub',
+		},
+		{
+			ru: 'горький / озлобленный',
+			eng: 'bitter',
 		},
 	];
 
